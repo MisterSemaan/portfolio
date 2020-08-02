@@ -1,0 +1,9 @@
+a .socialMediaimg {
+    transition: transform .5s ease-in-out;
+    max-width: 15%;
+}
+
+a .socialMediaimg:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
+}
