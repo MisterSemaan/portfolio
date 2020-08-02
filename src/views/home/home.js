@@ -5,6 +5,7 @@ import { SocialMedia } from "../../components/socialMedia/socialMedia";
 import githubIcon from '../../assets/socialMedia/github.svg';
 import stackoverflowIcon from '../../assets/socialMedia/stackoverflow.svg';
 import twitterIcon from '../../assets/socialMedia/twitter.svg';
+import linkedinIcon from '../../assets/socialMedia/linkedin.svg';
 
 import './home.css';
 
@@ -23,6 +24,11 @@ const socialMedia = [
     socialMediaHref: 'https://twitter.com/home',
     socialMediaAlt: 'Twitter Icon',
     socialMediaSrc: twitterIcon,
+  },
+  {
+    socialMediaHref: 'https://www.linkedin.com/in/gabriel-semaan',
+    socialMediaAlt: 'Linkedin Icon',
+    socialMediaSrc: linkedinIcon,
   }
 ];
 
@@ -43,7 +49,7 @@ export const Home = () => {
         <div id="socialMediaWrapper">
           {
             socialMedia.map((value, index) => {
-              return <SocialMedia socialMediaHref={value.socialMediaHref} socialMediaSrc={value.socialMediaSrc} socialMediaAlt={value.socialMediaAlt} />
+              return <SocialMedia key={index} socialMediaHref={value.socialMediaHref} socialMediaSrc={value.socialMediaSrc} socialMediaAlt={value.socialMediaAlt} />
             })
           }
         </div>
