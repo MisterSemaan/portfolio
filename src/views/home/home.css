@@ -1,5 +1,4 @@
 #home {
-    background-image: url('../../assets/heroImage.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,33 +7,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-}
-
-#home .homeWrapper {
-    height: 25%;
-    width: 66%;
-    margin-bottom: 10%;
+    color: black;
+    background-color: white;
 }
 
 #home .homeWrapper h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
 }
 
 #home .homeWrapper h1 span{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
 }
 
 #home .homeWrapper p {
-    font-size: 20px;
-    text-align: left;
+    font-size: 24px;
+    text-align: center;
     margin-bottom: 20px;
 }
 
-#socialMediaWrapper {
-    display: flex;
+#home .homeWrapper #socialMediaWrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home .homeWrapper .callToActionButton {
+    position: absolute;
+    top: 70%;
+    left: 44%;
 }

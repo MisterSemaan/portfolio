@@ -1,6 +1,10 @@
+a:not(:last-child) {
+    padding-right: 50px;
+}
+
 a .socialMediaimg {
     transition: transform .5s ease-in-out;
-    max-width: 15%;
+    max-width: 5%;
 }
 
 a .socialMediaimg:hover {

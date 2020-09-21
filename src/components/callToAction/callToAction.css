@@ -1,0 +1,9 @@
+.callToActionButton {
+    border: none;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
